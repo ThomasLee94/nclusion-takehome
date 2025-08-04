@@ -144,11 +144,6 @@ function App() {
       <header className="header">
         <h1>Nclusion Takehome Project</h1>
         <p>Interactive visualizion of the equation: z<sub>n+1</sub> = z<sub>n</sub>² + c, zoom in with mouse!</p>
-        <p className="description">
-          Complex plane from (-2,-2) to (2,2) • 
-          <strong> LIGHT</strong> = bounded sequence • 
-          <strong> DARK</strong> = unbounded sequence
-        </p>
       </header>
 
       <main className="main">
