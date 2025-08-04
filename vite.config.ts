@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/nclusion-takehome",
-  preview: {
-    port: 4173,
-    host: '0.0.0.0'
-  }
+  base: "/nclusion-takehome"
 })
